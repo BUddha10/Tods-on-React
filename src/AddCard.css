@@ -1,0 +1,36 @@
+.addCard {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  background-color: rgb(218, 225, 231);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.addCard__input {
+  display: flex;
+  align-items: center;
+}
+.addCard__input > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  outline: none; /* outline-width: 0; */
+  font-size: medium;
+  background-color: transparent;
+}
+
+.addCard__input > .MuiSvgIcon-root {
+  margin-right: 10px !important;
+}
+
+.addCard > h1 {
+  margin: auto;
+  color: gray;
+  border-bottom: 2px solid rgb(198, 204, 209);
+}
